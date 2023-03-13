@@ -26,7 +26,7 @@
     <div class="sidenav -ml-72 transition-all duration-500 md:ml-0 w-72 z-20 flex flex-col fixed bg-gray-100 h-full overflow-y-auto shadow-md py-5">
         <div class="flex py-9 justify-center">
             <div class="flex items-center gap-2">
-                <div class="text-2xl font-bold text-my-50 "><span class="uppercase">Anyasodo Estate</span> <span class="italic text-blue-800" style="font-family:'Segoe Script'">apartments</span></div>
+                <div class="text-2xl font-bold text-my-50 "><span class="uppercase">Nigeria Brewery</span> <span class="italic text-blue-800" style="font-family:'Segoe Script'"></span></div>
             </div>
         </div>
         <div class="flex-grow">

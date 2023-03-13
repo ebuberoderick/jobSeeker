@@ -25,7 +25,7 @@
                 <div class="max-w-7xl top-0 mx-auto py-3">
                     <div class="flex w-full flex-col md:flex-row px-3">
                         <div class="flex-grow">
-                            <span class=" text-blue-500 font-bold text-lg">Jobber's</span>
+                            <span class=" text-blue-500 font-bold text-lg">Nigeria Brewery</span>
                             <div id="toggler" class="float-right bg-blue-500 mr-3 md:hidden block px-2 py-1 rounded-md border-2 border-white shadow-lg text-white cursor-pointer">
                                 <i class="ri-menu-2-line relative"></i>
                             </div>
@@ -35,7 +35,10 @@
                                 <a href="#welcome" class="cursor-pointer">welcome</a>
                                 <a href="#about" class="cursor-pointer">about us</a>
                                 <a href="#vacancy" class="cursor-pointer">vacancy</a>
-                                <div class="bg-blue-500 text-white py-2 px-5 rounded-md cursor-pointer employment_status">check employment status</div>
+                                <div class="flex gap-3 items-center">
+                                    <div class="bg-blue-500 text-white py-2 px-5 rounded-md cursor-pointer employment_status">check employment status</div>
+                                    <a href="login.html" class="bg-green-500 text-white capitalize rounded-md py-2 px-5">login</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -53,12 +56,11 @@
                             <div class="max-w-xl mx-auto lg:mx-2">
                             <div class="text-blue-700 text-xl font-bold">Welcome</div>
                                 <div class="font-bold text-5xl md:text-7xl capitalize">
-                                    <div class="">let us help you </div>
-                                    <div class="">to choose</div>
-                                    <div class="">the best</div>
+                                    <div class="">Working</div>
+                                    <div class="">with us</div>
                                 </div>
                                 <div class="mt-3 text-gray-400">
-                                    Eliminate stress and save time in searching for apartments let us serve you with the best apartment around.
+                                Congratulations! Today is your day! Today you go places that make you go places. Join us and be on your way! Our careers are journeys paved with richness.
                                 </div>
                                 <div class="flex w-full gap-12 mt-3">
                                     <a href="#" class="bg-blue-500 py-2 px-8 capitalize text-white rounded-2xl text-lg"> <i class="ri-book-open-line relative" style="top:2px"></i> learn more</a>
@@ -81,10 +83,10 @@
                                     </div>
                                     <div class="mt-3 text-gray-400 pr-7">
                                         <p>
-                                        Residential apartment management is an emerging aspect of managerial science today. It involves establishing goals, objectives and policies and implementation of strategies to achieve those goals and objectives. Apartment management is the work carried out to manage and maintain the development including facilities therein.
+                                        Nigerian Breweries Plc, the pioneer and largest brewing Company in Nigeria was incorporated in 1946 as "Nigerian Brewery Limited". In June 1949, the Company recorded a landmark when the first bottle of STAR lager beer rolled out of its Lagos Brewery bottling lines. In 1957,the company commissioned its second brewery in Aba and the name became "Nigerian Breweries Limited". This was followed by Kaduna Brewery in 1963 and lbadan Brewery in 1982. Following the coming into effect of the Companies and Allied Matters Act in 1990,the name of the company was changed to "Nigerian Breweries Plc" to reflect its public limited liability status.
                                         </p>
                                         <p class="mt-5">
-                                        An apartment is a place where people live, it is one of the basic needs of humanity and as such, different measures need to be taken to ensure that people can rent affordable apartment easily.Renting, also known as hiring or letting, is an agreement where a payment is made for the temporary use of a good, service or property owned by another. 
+                                        Nigerian Breweries is also a recipient of several awards and recognitions in other areas of its operations including product quality, marketing excellence, productivity and innovation, health and safety, corporate social responsibility and sustainability.
                                         </p>
                                     </div>
                                     <div class="flex w-full gap-12 mt-8">

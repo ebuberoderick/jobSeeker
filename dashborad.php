@@ -112,7 +112,16 @@
                                     Salary : <span class="text-gray-600 dark:text-gray-300 capitalize">&#8358;<?php echo $my_data['salary'] ?></span>
                                 </div>
                             </div>
-                            <div class=""></div>
+                        </div>
+                    </div>
+                    <div className="space-y-3 lg:col-span-2">
+                        <div class="">Salary Overview</div>
+                        <div class="">
+                            <div class="py-2 px-3 bg-blue-500 text-white grid grid-cols-2">
+                                <div class="hidden lg:block">Mouth / Year</div>
+                                <div class="hidden md:block">amount</div>
+                            </div>
+                            <div></div>
                         </div>
                     </div>
                 </div>
