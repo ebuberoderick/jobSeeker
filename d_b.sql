@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 11, 2023 at 12:34 AM
+-- Generation Time: Mar 14, 2023 at 02:49 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -67,15 +67,6 @@ CREATE TABLE `job_description` (
   `datatime` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `job_description`
---
-
-INSERT INTO `job_description` (`id`, `name`, `datatime`) VALUES
-(1, 'teacher', '2023-03-10 11:17:44'),
-(2, 'receptionist', '2023-03-10 11:18:19'),
-(3, 'care giver', '2023-03-10 11:18:19');
-
 -- --------------------------------------------------------
 
 --
@@ -102,7 +93,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `phone_number`, `user_level`, `job_title`, `office_location`, `salary`, `onPayroll`, `user_password`, `datetime`) VALUES
-(1, 'admin', 'admin', 'admin@admin.com', '08080808080', 'admin', 'admin', '', '', '0', '', '2023-03-11 00:31:57');
+(1, 'admin', 'admin', 'admin@admin.com', '08080808080', 'admin', 'admin', '', '', '0', 'admin', '2023-03-11 00:31:57');
 
 --
 -- Indexes for dumped tables
@@ -152,13 +143,13 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `job_description`
 --
 ALTER TABLE `job_description`
-  MODIFY `id` int(223) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(223) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(253) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(253) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
